@@ -7,7 +7,7 @@
 	"icon": "images/logo.png",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/aaqaishtyaq/dark-alliance"
+		"url": "https://github.com/aaqaishtyaq/dang-vscode"
 	},
 	"galleryBanner": {
 		"color": "#193549",
@@ -30,12 +30,12 @@
 		"themes": [{
 				"label": "Dang_Alliance",
 				"uiTheme": "vs-dark",
-				"path": "./theme/dang-alliance.json"
+				"path": "./themes/dang-alliance.json"
 			},
 			{
 				"label": "Dang_Meteorite",
 				"uiTheme": "vs-dark",
-				"path": "./theme/dang-meteorite.json"
+				"path": "./themes/dang-meteorite.json"
 			}
 		]
 	},
