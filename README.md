@@ -1,7 +1,6 @@
 # Dang!
 
 ![Logo](./images/logo.png)
-Dang! Dark 🎨 for VSCODE
 
 ![screenshot-react](./images/ss-react.png)
 ![screenshot-python](./images/ss-python.png)
