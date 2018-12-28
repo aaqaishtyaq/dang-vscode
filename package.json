@@ -1,5 +1,5 @@
 {
-	"name": "dang!-theme-vscode",
+	"name": "dang-theme-vscode",
 	"version": "1.0.0",
 	"displayName": "Dang! Dark",
 	"description": "🔥 Dark theme for vscode",
@@ -27,8 +27,7 @@
 		"start": "nodemon --exec vsce package"
 	},
 	"contributes": {
-		"themes": [
-			{
+		"themes": [{
 				"label": "Dang_Alliance",
 				"uiTheme": "vs-dark",
 				"path": "./theme/dang-alliance.json"
