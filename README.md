@@ -6,8 +6,8 @@
 ![screenshot-python](./images/ss-python.png)
 
 ## TODO
-[x] 🚀  Font support for Operator Mono and Dank Mono.
+- [x] 🚀  Font support for Operator Mono and Dank Mono.
 
-[] 🔧  Custom theme for Hyperterm.
+- [ ] 🔧  Custom theme for Hyperterm.
 
 ![screenshot-HyperTerm](./images/ss-hyper.png)
