@@ -1,0 +1,46 @@
+{
+	"name": "dang!-theme-vscode",
+	"version": "1.0.0",
+	"displayName": "Dang! Dark",
+	"description": "🔥 Dark theme for vscode",
+	"publisher": "aaqaishtyaq",
+	"icon": "images/logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/aaqaishtyaq/dark-alliance"
+	},
+	"galleryBanner": {
+		"color": "#193549",
+		"theme": "dark"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"VSCode",
+		"Themes"
+	],
+	"engines": {
+		"vscode": "^1.24.1"
+	},
+	"scripts": {
+		"start": "nodemon --exec vsce package"
+	},
+	"contributes": {
+		"themes": [{
+				"label": "Dang_Alliance",
+				"uiTheme": "vs-dark",
+				"path": "./theme/dang-alliance.json"
+			},
+			{
+				"label": "Dang_Meteorite",
+				"uiTheme": "vs-dark",
+				"path": "./theme/dang-meteorite.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"nodemon": "^1.14.12",
+		"vsce": "^1.36.2"
+	}
+}
