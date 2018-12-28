@@ -1,0 +1,9 @@
+.DS_Store
+._*
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+*.log
+npm-debug.log*
+node_modules/
+.npm

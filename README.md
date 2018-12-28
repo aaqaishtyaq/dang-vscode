@@ -10,3 +10,4 @@
 
 [] 🔧  Custom theme for Hyperterm.
 
+![screenshot-HyperTerm](./images/ss-hyper.png)

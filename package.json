@@ -27,7 +27,8 @@
 		"start": "nodemon --exec vsce package"
 	},
 	"contributes": {
-		"themes": [{
+		"themes": [
+			{
 				"label": "Dang_Alliance",
 				"uiTheme": "vs-dark",
 				"path": "./theme/dang-alliance.json"
