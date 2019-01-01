@@ -731,12 +731,11 @@
             "scope": [
                 "source.go keyword.package.go",
                 "source.go keyword.function.go",
-                "source.go keyword.type.go",
                 "source.go keyword.struct.go",
                 "source.go keyword.interface.go"
             ],
             "settings": {
-                "foreground": "#FF628C",
+                "foreground": "#89DDFF",
                 "fontStyle": "italic"
             }
         },
@@ -744,13 +743,14 @@
             "name": "Go Keywords 2",
             "scope": [
                 "source.go keyword.const.go",
+                "source.go keyword.type.go",
                 "source.go keyword.var.go",
                 "source.go keyword.map.go",
                 "source.go keyword.channel.go",
                 "source.go keyword.control.go"
             ],
             "settings": {
-                "foreground": "#C792EA",
+                "foreground": "#FF628C",
                 "fontStyle": "italic"
             }
         },
