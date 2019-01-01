@@ -682,7 +682,6 @@
                 "foreground": "#8F93A2"
             }
         },
-
         {
             "name": "Python Constant",
             "scope": "constant.character.format.placeholder.other.python",
@@ -710,7 +709,6 @@
             "settings": {
                 "fontStyle": "",
                 "foreground": "#CB6CFE"
-
             }
         },
         {
@@ -729,14 +727,22 @@
             }
         },
         {
-            "name": "Go Keywords",
+            "name": "Go Keywords 1",
             "scope": [
                 "source.go keyword.package.go",
-                "source.go keyword.import.go",
                 "source.go keyword.function.go",
                 "source.go keyword.type.go",
                 "source.go keyword.struct.go",
-                "source.go keyword.interface.go",
+                "source.go keyword.interface.go"
+            ],
+            "settings": {
+                "foreground": "#FF628C",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Go Keywords 2",
+            "scope": [
                 "source.go keyword.const.go",
                 "source.go keyword.var.go",
                 "source.go keyword.map.go",
@@ -744,7 +750,7 @@
                 "source.go keyword.control.go"
             ],
             "settings": {
-                "foreground": "#FF5370",
+                "foreground": "#C792EA",
                 "fontStyle": "italic"
             }
         },
