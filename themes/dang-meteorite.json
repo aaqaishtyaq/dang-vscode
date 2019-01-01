@@ -787,7 +787,8 @@
                 "keyword.operator.type",
                 "punctuation.section.embedded.js",
                 "punctuation.definintion.string",
-                "punctuation"
+                "punctuation",
+                "string"
             ],
             "settings": {
                 "fontStyle": "normal"
