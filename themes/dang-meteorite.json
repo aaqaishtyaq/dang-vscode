@@ -803,6 +803,22 @@
       }
     },
     {
+      "name": "[YML] - Tags",
+      "scope": "entity.name.tag.yaml",
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "[YML] - Values",
+      "scope": [
+        "string.unquoted.plain.out.yaml"
+      ],
+      "settings": {
+        "foreground": "#8F93A2"
+      }
+    },
+    {
       "name": "normalize font style of certain components",
       "scope": [
         "meta.tag.js meta.embedded.expression.js punctuation.section.embedded.begin.js",
