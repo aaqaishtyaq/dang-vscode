@@ -1,6 +1,6 @@
 {
 	"name": "dang-theme-vscode",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"displayName": "Dang! Dark",
 	"description": "🔥 Dark theme for vscode",
 	"publisher": "aaqaishtyaq",
@@ -9,9 +9,34 @@
 		"type": "git",
 		"url": "https://github.com/aaqaishtyaq/dang-vscode"
 	},
+	"license": "MIT",
 	"galleryBanner": {
 		"color": "#193549",
 		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.50.0"
+	},
+	"scripts": {
+		"start": "nodemon --exec vsce package"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "01-Dang-Jedi",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dang-meteorite.json"
+			},
+			{
+				"label": "02-Dang-Sith",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dang-alliance.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.12",
+		"vsce": "^1.96.1"
 	},
 	"categories": [
 		"Themes"
@@ -20,27 +45,29 @@
 		"VSCode",
 		"Themes"
 	],
-	"engines": {
-		"vscode": "^1.24.1"
-	},
-	"scripts": {
-		"start": "nodemon --exec vsce package"
-	},
-	"contributes": {
-		"themes": [{
-				"label": "Dang_Alliance",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dang-alliance.json"
-			},
-			{
-				"label": "Dang_Meteorite",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dang-meteorite.json"
-			}
-		]
-	},
-	"devDependencies": {
-		"nodemon": "^1.14.12",
-		"vsce": "^1.36.2"
-	}
+	"tags": [
+		"dang",
+		"vscode",
+		"theme",
+		"star wars",
+		"js",
+		"jsx",
+		"css",
+		"scss",
+		"saturated",
+		"dark-color-theme",
+		"dark",
+		"italics",
+		"cursive-italics",
+		"cursive",
+		"Syntax Highlighting",
+		"Syntax",
+		"Development",
+		"Dark Color Theme",
+		"Dark",
+		"Night",
+		"popular",
+		"Trending",
+		"Saturated"
+	]
 }
